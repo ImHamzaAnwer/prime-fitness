@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+h1,h3{
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.header{
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+#navSection ul{
+    float: right;
+}
+
+#navSection ul li{
+    display: inline;
+}
+
+#navSection ul li a{
+    padding: 32px 20px;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navSection ul li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.header-2{
+    display: none;
+}
+/*Responsive nav*/
+
+.header-2{
+    width: 300px;
+    min-height: 100%;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    z-index: 999999;
+    transition: all ease 0.6s;
+    transform: translateX(-200px);
+}
+
+.header-2 ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.header-2 ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-2 ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#hamza{
+    margin-left: 85%;
+}
+
+.anim{
+    transform: translateX(0px);
+}
+
+/**/
+
+.slider{
+    width: 100%;
+    height: 500px;
+    background: url("../images/parallax/img1.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+/*Content Starts*/
+
+.content{
+    background: cornsilk;
+    text-align: center;
+}
+
+ .content-box{
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    transition: all ease .4s;
+    height: 550px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.content-box:hover{
+    transform: scale(1.05,1.05);
+    z-index: 9999;
+}
+
+#fit{
+  background: url("../images/yo.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+#fit2{
+  background: url("../images/yo2.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+#blue{
+    height: inherit;
+    background: rgba(33, 193, 198, .4);
+    padding: 12px;
+}
+
+#orange{
+    height: inherit;
+    background: rgba(255, 140, 25, .4);
+    padding: 12px;
+}
+
+#pink{
+    height: inherit;
+    background: rgba(255, 135, 159 ,.4);
+    padding: 12px;
+}
+
+#gray{
+    height: inherit;
+    background: rgba(66, 63, 64, .6);
+    padding: 12px;
+}
+/*Why Choose Us*/
+.choose, .coaches{
+    text-align: center;
+}
+
+.choose{
+    background: #333;
+    color: #fff;
+}
+
+
+.choose-cols{
+    padding: 30px;
+    margin: 30px 0;
+}
+
+/*Coaches Section Starts*/
+
+.coach-box{
+    padding: 15px;
+    -webkit-transition: all ease .6s;
+    -moz-transition: all ease .6s;
+    transition: all ease .6s;
+}
+
+.coach-box img{
+    border-radius: 50%;
+}
+.coach-box:hover{
+    margin-top: 2%;
+    box-shadow: 5px 5px 6px 6px #ccc;
+}
+
+/*parallax*/
+
+.parallax{
+    width: 100%;
+    height: 400px;
+}
+
+#home-parallax{
+    background: url("../images/parallax/swim.jpg") top center fixed no-repeat;
+    transform: skew(0, -2.5deg);
+    margin-bottom: 30px;
+    background-size: cover;
+        
+}
+
+.testimonials p{
+    margin-top: 30px; 
+}
+
+
+.footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+}
+
+#icons{
+    margin: 20px 0;
+}
+
+#icons span img{
+    opacity: 0.5;
+    transition: all ease .6s;
+}
+
+#icons span img:hover{
+    opacity: 1;
+}
+
+span{
+    padding: 6px;
+}
+
+/***** ABOUT US PAGE *******/
+
+.about-sec-one{
+    padding: 10px;
+    background: url("../images/parallax/swim.jpg") top center fixed;
+    background-size: cover;
+    height: 550px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.about-sec-one h1{
+    margin-top: 15%;
+    font-weight: 600;
+}
+
+.features{
+    margin: 50px 0;
+    color: #333;
+}
+
+.feature-box{
+    padding: 10px;
+    text-align: center;
+    height: 210px;
+}
+
+#support{
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+#time{
+    border-bottom: 1px solid #333;
+}
+
+#space{
+    border-right: 1px solid #333;
+}
+
+.explore{
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.explore-bg{
+    background: url("../images/parallax/cycling-para.jpeg") center no-repeat;
+    background-size: cover;
+}
+
+.explore-content-1{
+    padding: 30px;
+}
+.explore-content-1 p{
+    margin-bottom: 60px;
+}
+
+.explore-content-2{
+    padding: 10px;
+    text-align: center;
+    margin: 30px 0;
+}
+/*******SERVICES PAGE STARTS**********/
+
+.services-box{
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 2px 0px;
+    height: 300px;
+    }
+
+#gym-parallax{
+    background: url("../images/parallax/fitness-para.jpeg") bottom center fixed;
+    background-size: cover;
+}
+
+
+#swimming-parallax{
+    background: url("../images/parallax/swimming-para.jpg") top center fixed;
+    background-size: cover;
+}
+#cycling-parallax{
+    background: url("../images/parallax/cycling-para.jpeg") top center fixed;
+    background-size: cover;
+}
+
+#boxing-parallax{
+    background: url("../images/parallax/boxing-para.jpg") top center fixed;
+    background-size: cover;
+}
+
+/*Media Quries*/
+
+@media only screen and (max-width: 768px) {
+ .header{
+     display: none;
+ }
+
+ .header-2{
+     display: block;
+ }
+
+}
