@@ -18,7 +18,7 @@ h1,h3{
     margin: 10px 0;
 }
 
-.header{
+.header, .header-2{
     background: #333;
     color: #fff;
     padding: 15px;
@@ -42,44 +42,35 @@ h1,h3{
     background: #fff;
     color: #333;
 }
-
 .header-2{
+    display: none;
+}
+
+.header-2-slide{
     display: none;
 }
 /*Responsive nav*/
 
-.header-2{
-    width: 300px;
-    min-height: 100%;
-    background: #333;
-    color: #fff;
-    position: absolute;
-    z-index: 999999;
-    transition: all ease 0.6s;
-    transform: translateX(-200px);
-}
-
-.header-2 ul li{
+.header-2-slide ul li{
     list-style: none;
-    padding: 20px;
+    margin-top: 55px; 
 }
 
-.header-2 ul li a{
-    padding: 20px;
+.header-2-slide ul li a{
+    padding: 10px;
     text-decoration: none;
     color: #fff;
 }
 
-.header-2 ul li a:hover{
+.header-2-slide ul li a:hover{
     border-bottom: 1px solid #fff;
 }
 
-#hamza{
-    margin-left: 85%;
-}
-
-.anim{
-    transform: translateX(0px);
+#nav2-section img{
+    width: 30px;
+    height: 30px;
+    margin-left: 80%;
+    cursor: pointer;
 }
 
 /**/
