@@ -5,7 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" href="css/accordion.css">-->
+    <link rel="stylesheet" href="css/accordion.css">
 </head>
 <body>
     <header>
@@ -18,11 +18,12 @@
                     <div class="col-md-8" id="navSection">
                         <nav>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Site Map</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -43,11 +44,12 @@
                     <div class="col-md-12 header-2-slide">
                         <nav>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="faqs.html">FAQs</a></li>
-                                <li><a href="#">Site Map</a></li>
+                                <li><a href="#s">FAQs</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -122,7 +124,13 @@
         </div>
     </footer>
 
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src="js/accordion.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.accordion').click(function(){
+                $('.panel').slideToggle();
+            });
+        });
+    </script>
 </body>
 </html>

@@ -18,6 +18,12 @@ h1,h3{
     margin: 10px 0;
 }
 
+.primary-heading{
+    font-size: 32px;
+    text-align: center;
+    color: mediumpurple;
+}
+
 .header, .header-2{
     background: #333;
     color: #fff;
@@ -309,7 +315,45 @@ span{
     background-size: cover;
 }
 
-/*Media Quries*/
+/*Gallery Starts*/
+
+.gall-row{
+    margin: 20px 0;
+}
+
+.gall-row img{
+    margin: 30px 0;
+    cursor: pointer;
+    filter: grayscale();
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .4s;
+    opacity: 0.8;
+} 
+
+.gall-row img:hover{
+    filter: unset;
+    opacity: 1;
+    transform: translate(5px);
+}
+
+/*********FORM PAGE***********/
+#enq-form{
+    margin: 50px 0;
+}
+#enq-form input{
+    width: 350px;
+}
+
+#enq-form input , #enq-form select{
+    margin-left: 30px;
+}
+
+.form-group{
+    margin: 25px 0;
+}
+
+    /*Media Quries*/
 
 @media only screen and (max-width: 768px) {
  .header{
