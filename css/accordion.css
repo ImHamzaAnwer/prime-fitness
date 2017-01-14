@@ -8,16 +8,18 @@
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: all ease 0.4s;
 }
 
 .accordion:hover {
-    background-color: #ddd;
+    background-color: #ccc;
 }
 
 .panel {
+    box-sizing: border-box;
+    padding: 20px;
     padding: 0 18px;
-    background-color: white;
+    background-color: #ccc;
+    color: #333;
     display: none;
-    /*display: none;*/
 }
