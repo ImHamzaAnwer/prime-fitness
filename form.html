@@ -11,17 +11,26 @@
         <div class="container-fluid header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4" id="logoSection">
+                    <div class="col-sm-4" id="logoSection">
                         <h4>Prime Fitness</h4>
                     </div>
                     <div class="col-md-8" id="navSection">
                         <nav>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="#">FAQs</a></li>
+                                <li class="drop">
+                                    <a href="services.html" class="dropbtn">Services</a>
+                                    <div class="drop-content">
+                                        <a href="gyming.html">Gyming</a>
+                                        <a href="swimming.html">Swiming</a>
+                                        <a href="#">Boxing</a>
+                                        <a href="#">Cycling</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li><a href="about.html">About us</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="faqs.html">FAQs</a></li>
                                 <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
                         </nav>
@@ -42,11 +51,19 @@
                     </div>
                     <div class="col-md-12 header-2-slide">
                         <nav>
-                            <ul>
+                            <ul class="drop">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li>
+                                    <a href="services.html" class="expand-link">Services ></a>
+                                    <ul class="expand">
+                                        <li><a href="gyming.html">Gyming</a></li>
+                                        <li><a href="swimming.html">Swiming</a></li>
+                                        <li><a href="#">Boxing</a></li>
+                                        <li><a href="#">Cycling</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="#s">FAQs</a></li>
+                                <li><a href="faqs.html">FAQs</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
@@ -58,7 +75,7 @@
     </header> <!--header-->
 
     <section id="enq-form">
-        <h1>Enquiry Form</h1>
+        <h1 class="primary-heading">Enquiry Form</h1>
         <div class="container">
         <form class="form-horizontal">
             <div class="form-group">

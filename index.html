@@ -11,17 +11,26 @@
         <div class="container-fluid header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4" id="logoSection">
+                    <div class="col-sm-4" id="logoSection">
                         <h4>Prime Fitness</h4>
                     </div>
                     <div class="col-md-8" id="navSection">
                         <nav>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="faqs.html">FAQs</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="drop">
+                                    <a href="services.html" class="dropbtn">Services</a>
+                                    <div class="drop-content">
+                                        <a href="gyming.html">Gyming</a>
+                                        <a href="swimming.html">Swiming</a>
+                                        <a href="#">Boxing</a>
+                                        <a href="#">Cycling</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li><a href="about.html">About us</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="faqs.html">FAQs</a></li>
                                 <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
                         </nav>
@@ -42,9 +51,17 @@
                     </div>
                     <div class="col-md-12 header-2-slide">
                         <nav>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
+                            <ul class="drop">
+                                <li><a href="index.html">Home</a></li>
+                                <li>
+                                    <a href="services.html" class="expand-link">Services ></a>
+                                    <ul class="expand">
+                                        <li><a href="gyming.html">Gyming</a></li>
+                                        <li><a href="swimming.html">Swiming</a></li>
+                                        <li><a href="#">Boxing</a></li>
+                                        <li><a href="#">Cycling</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="faqs.html">FAQs</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
@@ -56,8 +73,6 @@
             </div>
         </div> <!--Navigation 2-->
     </header> <!--header-->
-
-
 
     <main>
         <section class="container-fluid slider">
@@ -101,8 +116,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 head-text">
-                        <h1>WHY CHOOSE US</h1>
-                        <p>Our facility offers a lot of advantages for your CrossFit and fitness practice. Across our 20,000 sq.ft. gym space you'll surely have more than enough room for training!</p>
+                        <h1 class="primary-heading">WHY CHOOSE US</h1>
+                        <p class="secondary-heading">Our facility offers a lot of advantages for your CrossFit and fitness practice. Across our 20,000 sq.ft. gym space you'll surely have more than enough room for training!</p>
                     </div>
                 
                     <div class="col-sm-3 choose-cols">
@@ -128,9 +143,10 @@
             </div>
         </section> <!--Choose-->
 
-        <section class="coaches">
+        <section class="coaches primary-bg">
             <div class="container">
                 <div class="row">
+                    <h1 class="primary-heading">COACHES</h1>
                     <div class="col-sm-3 coach-box">
                         <img src="images/coach1.jpg" alt="">
                         <h4>Name</h4>
@@ -161,10 +177,10 @@
         
         <div class="parallax" id="home-parallax"></div>
 
-        <section class="testimonials">
+        <section class="testimonials primary-bg">
             <div class="container">
                 <div class="row">
-                    <h1>Testimonials</h1>
+                    <h1 class="primary-heading">Testimonials</h1>
                     <div class="col-md-4">
                         <img src="images/coach1.jpg" alt="">
                     </div>

@@ -12,4 +12,13 @@ $(document).ready(function(){
             $('.panel').click(function(){
                 $(this).slideToggle("slow");
             });
+
+            $('.expand-link').mouseover(function(){
+                $('.expand').slideDown();
+            });
+
+            $('.expand-link').mouseout(function(){
+                $('.expand').slideUp();
+            });
+
         });

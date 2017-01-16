@@ -1,5 +1,4 @@
 .accordion {
-    margin: 5px 0;
     background-color: #eee;
     color: #333;
     cursor: pointer;
@@ -13,13 +12,19 @@
 
 .accordion:hover {
     background-color: #ccc;
+    border: thin solid purple;
+}
+
+.active{
+    background: hotpink;
+    color: #fff
 }
 
 .panel {
-    box-sizing: border-box;
     padding: 20px;
     padding: 0 18px;
     background-color: #ccc;
     color: #333;
     display: none;
+    height: 100px;
 }

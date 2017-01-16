@@ -8,21 +8,30 @@
     <link rel="stylesheet" href="css/accordion.css">
 </head>
 <body>
-    <header>
+   <header>
         <div class="container-fluid header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4" id="logoSection">
+                    <div class="col-sm-4" id="logoSection">
                         <h4>Prime Fitness</h4>
                     </div>
                     <div class="col-md-8" id="navSection">
                         <nav>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="#">FAQs</a></li>
+                                <li class="drop">
+                                    <a href="services.html" class="dropbtn">Services</a>
+                                    <div class="drop-content">
+                                        <a href="gyming.html">Gyming</a>
+                                        <a href="swimming.html">Swiming</a>
+                                        <a href="#">Boxing</a>
+                                        <a href="#">Cycling</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li><a href="about.html">About us</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="faqs.html">FAQs</a></li>
                                 <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
                         </nav>
@@ -43,11 +52,19 @@
                     </div>
                     <div class="col-md-12 header-2-slide">
                         <nav>
-                            <ul>
+                            <ul class="drop">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li>
+                                    <a href="services.html" class="expand-link">Services ></a>
+                                    <ul class="expand">
+                                        <li><a href="gyming.html">Gyming</a></li>
+                                        <li><a href="swimming.html">Swiming</a></li>
+                                        <li><a href="#">Boxing</a></li>
+                                        <li><a href="#">Cycling</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="#s">FAQs</a></li>
+                                <li><a href="faqs.html">FAQs</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="form.html">Enquiry Form</a></li>
                             </ul>
@@ -62,34 +79,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <button class="accordion">Section 1</button>
+                    <button class="accordion">What facilities does the club offer?</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>At Soul Fitness the difference is in the details. Our clubs have world class facilities, state of the art equipment and exciting group classes, but each location is also unique and some amenities and services may vary per location. Please visit your clubs homepage for a complete list of features.</p>
                     </div>
 
-                    <button class="accordion">Section 2</button>
+                    <button class="accordion">How often are the facilities cleaned?</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>Cleanliness is a big focus at Soul Fitness. We employ large janitorial services to keep our clubs clean and to ensure all equipment is thoroughly cleaned twice daily. Disinfectant and towels are also available for member use on the floor as well.</p>
                     </div>
 
-                    <button class="accordion">Section 3</button>
+                    <button class="accordion">How do i pay ?</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>Our flexible payment plans mean you can pay for your membership monthly or all at once. You can also choose the date you want your membership to start, so you’ll only pay from your first session onwards.</p>
                     </div>
 
-                    <button class="accordion">Section 1</button>
+                    <button class="accordion">What happens if I move house or change job?</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>Don't worry, we'll simply transfer your membership to a club nearer to your new location. With many clubs in the UK you're never far away from your next workout but if there isn't a club within a five-mile radius of your new location click here to find the next step.</p>
                     </div>
 
-                    <button class="accordion">Section 2</button>
+                    <button class="accordion">What Should I wear to exercise ?</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>We recommend wearing comfortable clothes of any type, exercise pants or sweatpants and/or shorts, t-shirt or long sleeve t-shirt and a pair of comfortable tennis shoes. No one judges at club fitness so you do not need to wear a certain brand, make up your hair or look perfect in anyway. We are all here to have fun, be healthy and sweat!<p>
                     </div>
 
-                    <button class="accordion">Section 3</button>
+                    <button class="accordion">How can i cancel ?</button>
                     <div class="panel">
-                        <p>Lorem ipsum...</p>
+                        <p>Cancellations are submitted at the facility with the manager or assistant manager. Cancellation notices must be submitted in person by the member with the Manager or Assistant Manager of any location during the hours listed below. Photo ID must be present to fill out the form.</p>
                     </div>
                 </div>
             </div>
