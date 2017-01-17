@@ -17,8 +17,8 @@ $(document).ready(function(){
                 $('.expand').slideDown();
             });
 
-            $('.expand-link').mouseout(function(){
-                $('.expand').slideUp();
-            });
+            // $('.expand-link').mouseout(function(){
+            //     $('.expand').slideUp();
+            // });
 
         });
