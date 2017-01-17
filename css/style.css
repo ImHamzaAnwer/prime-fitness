@@ -16,7 +16,7 @@ section{
 .primary-heading{
     font-size: 38px;
     text-align: center;
-    color: #b365c6;
+    color: #7B69AF;
     margin: 30px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -32,7 +32,7 @@ section{
 }
 
 .secondary-bg{
-    background: #b365c6;
+    background: #7B69AF;
 }
 
 .primary-bg, .secondary-bg{
@@ -303,22 +303,28 @@ span{
 
 .about-sec-one{
     padding: 10px;
-    background: url("../images/parallax/swim.jpg") top center fixed;
+    background: url("../images/welcome-img.jpg") bottom center fixed;
     background-size: cover;
     height: 550px;
     color: #fff;
     text-align: center;
     margin: 0;
 }
+.welcome-wrap{
+    margin-top: 8%;
+    background: rgba(63, 66, 71, .6);
+    padding: 80px;
+    box-sizing: border-box;
+}
 
 .about-sec-one h1{
-    margin-top: 27%;
+    font-size: 3em;
     font-weight: 600;
 }
 
 .about-sec-one p{
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .features{
@@ -352,7 +358,7 @@ span{
 }
 
 .explore-bg{
-    background: url("../images/parallax/cycling-para.jpeg") center no-repeat;
+    background: url("../images/welcome-img2.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -487,4 +493,14 @@ span{
 }
 
 
+}
+
+@media only screen and (max-width: 768px) {
+.welcome-wrap{
+    padding: 12px;
+    margin-top: 0%;    
+}
+.welcome-wrap p{
+    font-size: .9em;    
+}
 }
